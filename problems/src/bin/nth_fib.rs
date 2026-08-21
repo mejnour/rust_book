@@ -3,7 +3,7 @@ use std::io;
 fn calc_fib_elem_by_pos(pos: i32) {
     if pos == 1 {
         println!("pos 1 is elem 0");
-    } else if pos == 2 {q
+    } else if pos == 2 {
         println!("pos 2 is elem 1");
     } else if pos > 2 {
         let mut a:u128 = 0;
